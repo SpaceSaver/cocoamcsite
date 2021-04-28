@@ -1,0 +1,10 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/cookie"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": 1}, "model": "item/cookie/1" },
+		{ "predicate": { "custom_model_data": 2}, "model": "item/cookie/2" }
+	]
+}

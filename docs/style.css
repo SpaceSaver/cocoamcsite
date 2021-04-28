@@ -1,0 +1,79 @@
+body
+{
+    background-image: url("DB.jpg")
+}
+.inline
+{
+    display: inline-block;
+}
+.packs-container
+{
+    position: absolute;
+    top: 25vh;
+    bottom: 0;
+    left: 15vw;
+    right: 15vw;
+    margin: auto;
+    background-color: #ffffffBF;
+    border-radius: 5vmin;
+}
+.packs
+{
+    position: absolute;
+    top: 10vmin;
+    bottom: 0;
+    left: 5vmin;
+    right: 5vmin;
+    overflow-y: auto;
+}
+.pack
+{
+    display: inline-block;
+    position: relative;
+    height: 20vh;
+    width: 100%;
+    cursor: pointer;
+    color: black;
+}
+.pack:hover
+{
+    background-color: #00000080;
+}
+.pack-icon
+{
+    margin: 5vmin;
+    width: 10vmin;
+    height: 10vmin;
+}
+.pack-title
+{
+    font-size: 24pt;
+    margin-bottom: 1pt;
+}
+.pack-description
+{
+    font-size: 12pt;
+    margin-top: 1pt;
+}
+.pack-text-container
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 26%;
+    right: 0;
+    margin: auto;
+}
+#page-title
+{
+    position: absolute;
+    top: 3vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 25pt;
+    color: white;
+    height: min-content;
+    width: fit-content;
+    font-family: "Press Start 2P", sans-serif;
+}
